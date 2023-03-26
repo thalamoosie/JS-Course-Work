@@ -25,15 +25,15 @@ Tasks:
 
 ✅ 2) Call this method whenever a user clicks the "Answer Poll" button (document.querySelector('.class').addEventListner('click', poll.registerNewAnswer.bind(poll)))
 
-3) Create a method 'displayResults' which displays the poll results. The method takes a string as an input (called 'type'), which can be either 'string' or 'array'. 
+✅3) Create a method 'displayResults' which displays the poll results. The method takes a string as an input (called 'type'), which can be either 'string' or 'array'. 
 
     a) If type 'array' simply display the rsults array as it is using console.log()
     b) if type 'String', display a string like "Poll results are 1, 2, 3, 4, a, b"
     
-4) Run the 'displayResults' method ad the end of each new 'registerNewAnswer' call
+✅4) Run the 'displayResults' method ad the end of each new 'registerNewAnswer' call
 
 /////
-BONUS
+BONUS ✅
 /////
 
 Use the 'displayResults' method to display the 2 arrays in the test data. Use both the 'array' and'string option. Do NOT put the array sin the poll object! So.. what should the keyword look like in this situation?
